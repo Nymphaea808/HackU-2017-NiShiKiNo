@@ -16,7 +16,7 @@ Template.customerThreadList.helpers({
 Template.customerThreadList.events({
   'click .threadLists .thread-line':function(e){
     e.preventDefault();
-
+    
     var currentID=this._id.valueOf();
     // console.log('clicked '+currentID);
     Router.go('customerThreadDetail', {_id: currentID});
