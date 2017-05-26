@@ -52,14 +52,13 @@ if(Threads.find().count()===0){
   console.log(ids);
 
 }
-//if(Records.find().count() === 0) {
-  //var userids = Records.insert({
-    //userID: {},
-    //username: 'Kiri Man',
-    //address: 'Tokyo, Japan',
-    //image: '',
-    //comment: 'Hi! I am Kiri man'
-  //});
+if(Records.find().count() === 0) {
+  var userids = Records.insert({
+    userID: userids,
+    username: 'Kiri Man',
+    address: 'Tokyo, Japan',
+    image: '',
+    comment: 'Hi! I am Kiri man'
+  });
+}
 
-  //console.log(userids);
-//}

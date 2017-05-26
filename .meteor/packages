@@ -25,6 +25,6 @@ npm-bcrypt
 aldeed:autoform
 useraccounts:materialize
 accounts-ui-unstyled
-aldeed:simple-schema
 check
 dburles:google-maps
+aldeed:simple-schema
