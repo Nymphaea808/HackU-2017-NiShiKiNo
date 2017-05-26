@@ -49,3 +49,14 @@ if(Threads.find().count()===0){
       );
       console.log(ids);
     }
+
+if(Records.find().ocunt() === 0) {
+  var userData = {
+    userID: 1,
+    username: '西木野',
+    address: '東京都調布市',
+    image: '',
+    comment: 'よろしくお願いします。'
+  }
+
+}
