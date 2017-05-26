@@ -8,8 +8,6 @@ Meteor.publish('posts',function(){
   // console.log('Threads publish'+Threads.find());
   return Posts.find();
 });
-
-
 Meteor.publish('records',function(){
   return Records.find();
 });
